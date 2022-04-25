@@ -1,0 +1,28 @@
+!!Scorpio
+##Annotated
+caption: Annotated JáTéK for vis-viva equation
+:A: A
+*:B: " "
+:C: C
+*:D: " "
+:E: E
+*:F: " "
+:G: G
+*:H: " "
+:A: at: 131,92
+card:
+$$V_r$$
+:B: at: 291,77
+:C: at: 191,185
+card:
+$$\mu$$
+:D: at: 335,77
+:E: at: 342,236
+card:
+$$r$$
+:F: at: 357,90
+:G: at: 461,179
+card:
+$$a$$
+:H: at: 397,91
+background: visviva.png

@@ -1,0 +1,85 @@
+!!Scorpio
+##MindMap
+:A: (🧲Maxwell's\nEquations⚡)
+*:B: Ampere's\nLaw
+*:C: Faraday's\nLaw
+*:D: Vectors
+*:E: <∇ Operator>
+**:F: ("Div ∇.")
+**:G: Grad ∇f
+**:H: Curl ∇x
+*:I: <SHM>
+**:J: Calculus
+**:K: Sin\nCos\nTan
+*:L: Complex\nNumbers
+*:M: The Speed\nof Light
+bond: * *
+bend: -15
+caption: Maxwell's Equations
+:info:
+card:
+###Maxwell's Equations
+This mind map is for Maxwell's Equations that relate magnetism, electricity and light.  There's a lot of mathematical machinery behind these equations, so the mind map takes us through the prerequisites, trigonometry, vectors and calculus.
+ #More(#maxwells_equations)
+:A: at: 293,184
+card:
+##🧲Maxwell's Equations⚡
+Maxwell's equations are differential equations that describe how magnetism affects electricity and how electricity affects magnetism.
+ #More(#maxwells_equations)
+:B: at: 331,334
+card:
+## Ampere's Law
+Gives the current density in terms of the magnetic field.
+:C: at: 204,333
+card:
+## Faraday's Law
+Gives the rate of change of the magnetic field in terms of the electric field.
+:D: at: 45,140
+card:
+##Vectors
+Vectors are a way to use several numbers to represent positions.  For example three numbers together can specify a position in 3D space.  One can calculate the angle between two vector from the numbers.
+ #More(#vectors)
+ #Wiki(Vector_(mathematics_and_physics))
+:E: at: 151,245
+card:
+##∇ Operator
+Del, or 'Nabla', represented by the symbol ∇, is a vector differential operator.  It is central to differential calculus on vector fields.
+ #More(#differential_operators)
+:F: at: 33,290
+card:
+##Div ∇.
+Takes a vector field (a function that has a vector value at each point in space) and gives a scalar field, which measures how much the field is spreading out at each point.
+ #More(#differential_operators)
+:G: at: 39,219
+card:
+##Grad ∇f
+Takes a scalar field (a function that has a value at each point in space) and creates a vector field from it.  Essentially it gives the vector of steepest descent.
+ #More(#differential_operators)
+:H: at: 73,360
+card:
+##Curl ∇x
+Takes a 3D vector field and gives a result that is a vector field.  Essentially measures how much rotation there is in the vector field.
+ #More(#differential_operators)
+:I: at: 202,110
+card:
+##SHM
+Simple Harmonic Motion, including the equations for movement of a pendulum.<br>A second order differential equation relates the acceleration of the pendulum to its position.  This can be regarded as two first order differential equations.  The solution to the equation(s) shows the oscillation.
+:J: at: 101,65
+card:
+##Calculus
+Calculus is needed to understand SHM, since differential equations are involved.
+ #More(#differentiation)
+:K: at: 248,41
+card:
+##Sin Cos Tan
+Sin, Cos and Tan are fundamental functions relating angles and ratios of sides in triangles.  It is best to measure angles in radians when using these functions with calculus, as the expressions are then simpler.
+ #More(#trigonometry)
+:L: at: 363,65
+card:
+##Complex Numbers
+Complex numbers are based on the concept of the square root of minus one.  Complex numbers can be interpreted geometrically.
+ #More(#complex_numbers)
+:M: at: 519,77
+card:
+##The Speed of Light
+Maxwell showed that electromagnetic disturbances travel at the speed of light.  This led him to infer that light is an electromagnetic phenomenon.
