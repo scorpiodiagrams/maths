@@ -1,4 +1,4 @@
-!!Markdown
+~~~Markdown
 ## 180 degrees
 
 > **180<sup>o</sup>** - The angles of any triangle add up to $$180^\circ$$. <br><br>The symbol **<sup>o</sup>** after the 180 is read as *degrees*.
@@ -16,7 +16,7 @@ The challenge is why?  Why when you sum the angles of a triangle do you always g
 ## The Tessellation Argument
 ### An almost good enough argument
 Here's a diagram that shows a tessellation of triangles.  It's the same triangle 🔺abc many times over.  Where three lines cross, the three angles of the triangle are each found twice.  The tessellation shows that twice the sum of the angles is 360 degrees, so the sum of the angles of a triangle is 180.
-!!Scorpio
+~~~Scorpio
 ##Geometry
 caption: Tessellation
 boxed: 250
@@ -87,7 +87,7 @@ bond: K V
 :A:B:C:D:E:F:G:H:I:J:K:L:N:O:P:Q:T:U:V:W:X:
 hide:
 
-!!Markdown
+~~~Markdown
 
 As a way to show that the angles add up to 180, this looks great.  
 
@@ -100,7 +100,7 @@ We'd have an argument that because the angles add up to 180 they must add up to 
 ## Using Symmetry
 ### An argument that can be made to work
 
-!!Scorpio
+~~~Scorpio
 ##Geometry
 caption: Tessellation
 boxed: 150
@@ -118,7 +118,7 @@ bond: A C
 bond: B C
 bond: B D
 bond: C D
-!!Markdown
+~~~Markdown
 
 Here we've taken the original triangle and added a single copy.
 
@@ -134,7 +134,7 @@ The short answer is that that is how the game is played.  Some assumptions such 
 
 We now add a third copy of the triangle like so:
 
-!!Scorpio
+~~~Scorpio
 ##Geometry
 caption: Tessellation
 boxed: 150
@@ -157,7 +157,7 @@ bond: B D
 bond: C D
 bond: A E
 bond: E C
-!!Markdown
+~~~Markdown
 
 We use the exact same symmetry argument to show that the bottom edge of this third triangle is parallel to the top edge of the second triangle we added.  This is enough to show that the bottom edge is as straight as it appears to be, and hence that the three angles add up to 180<sup>o</sup>.
 
@@ -168,7 +168,7 @@ We've used symmetry to show that the tessellation does fit together, or rather t
 
 Another way to show the angles add up to 180<sup>o</sup> is to take the original triangle 🔺abc, shown here slightly bigger, and bisect each edge, and join those points together.
 
-!!Scorpio
+~~~Scorpio
 ##Geometry
 caption: Half size
 boxed: 250
@@ -193,7 +193,7 @@ bond: B C
 bond: D E
 bond: E F
 bond: D F
-!!Markdown
+~~~Markdown
 
 We then use similarity of triangles to argue that each of the new edges of the inner triangle is half the length of one of the sides of the original triangle.
 

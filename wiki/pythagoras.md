@@ -1,4 +1,4 @@
-!!Markdown
+~~~Markdown
 
 # Pythagoras
 
@@ -9,7 +9,7 @@
 
 There are various ways to prove this, some complex, some beautiful, some algebraic.  One proof I like is this one:
 
-!!Scorpio
+~~~Scorpio
 ##Geometry
 caption: Subdividing a right-angle triangle
 boxed: 200
@@ -33,7 +33,7 @@ card:
 ##Dividing a triangle
 "Something about dropping a perpendicular"
 
-!!Markdown
+~~~Markdown
 
 
 If angle $$\angle ACB$$ of the original triangle is a right angle, then something wonderful happens when you divide the triangle into two.  
@@ -59,7 +59,7 @@ If we shrink or enlarge the diagram and all the triangles so that $$AB$$ has len
 
 Let's put AB=1 and letters a and b to stand for the shorter side lengths, CB and AC. 
 
-!!Scorpio
+~~~Scorpio
 ##Geometry
 caption: Subdividing a right-angle triangle
 boxed: 200
@@ -83,7 +83,7 @@ card:
 ##Dividing a triangle
 "Something about dropping a perpendicular"
 
-!!Markdown
+~~~Markdown
 
 The length AB = 1.  
 

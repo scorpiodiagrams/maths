@@ -1,4 +1,4 @@
-!!Markdown
+~~~Markdown
 #Trigonometry
 
 
@@ -8,7 +8,7 @@ Rectangles are easier than triangles.  We can easily get the area of a rectangle
 
 We can use triangles to get information about any shape with straight sides.  If we can calculate the length of the sides of triangles from other sides and angles, then we can divide a shape like this five pointed star into triangles and work out what the lengths are.
 
-!!Scorpio
+~~~Scorpio
 ##Geometry
 caption: Five pointed star
 boxed: 250
@@ -31,7 +31,7 @@ bond: E A
 card:
 ## Five pointed star
 We can work out the lengths and angles in a five pointed star from triangles that make it up.
-!!Markdown
+~~~Markdown
 
 Because we can divide shapes made with straight lines up into triangles they are a good foundation for work in geometry.  They are better in many ways than rectangles.  Any rectangle can be sliced into two triangles along its diagonal.  If we can do the geometry of triangles we also can do the geometry of rectangles
 
@@ -69,7 +69,7 @@ It would be possible to use triangles with $$60^\circ$$ angles, but then to subd
 
 Here is a triangle, $$\triangle ABC$$, subdivided into two right-angled triangles.
 
-!!Scorpio
+~~~Scorpio
 ##Geometry
 caption: Subdividing a triangle
 boxed: 200
@@ -91,7 +91,7 @@ angle: C D B
 card:
 ##Dividing a triangle
 "Something about dropping a perpendicular"
-!!Markdown
+~~~Markdown
 
 The two right angles are shown with the squarish pieces.
 
@@ -180,4 +180,4 @@ Including
 
 !!Katex
 \sin^2{(x)} + \cos^2{(x)} = 1
-!!Markdown
+~~~Markdown

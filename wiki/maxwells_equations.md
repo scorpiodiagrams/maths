@@ -1,16 +1,18 @@
-!!Markdown
+~~~Markdown
 
 # A Rat's Guide to Maxwell's Equations
 ### A rationalist's tour of Maxwell's equations
 
-!!Scorpio
-# AnnotatedLatex
+~~~Scorpio
+# MaxwellEqn
 !!Hide
 \nabla \cdot \mathbf{F} = 4\pi\rho
 !!Hide
 \nabla \times \mathbf{F} = \frac{i}{c}\left( \frac{\partial \mathbf{F}}{\partial t} + 4\pi\mathbf{J} \right)
-!!Markdown
-The two equations above together describe electromagnetic fields.  They describe how magnetism affects electricity and how electricity affects magnetism.  The first describes how fields spread out.  The second describes how fields change over time.  These are *Maxwell's equations*.
+~~~Markdown
+The two equations above together describe electromagnetic fields.  They describe how magnetism affects electricity and how electricity affects magnetism.  The first describes how fields spread out.  The second describes how fields change over time.  
+
+These are *Maxwell's equations*.
 
 Maxwell solved these equations and found that an electromagnetic disturbance would travel at the speed of light.  He deduced that light could be electromagnetic in nature.
 
@@ -95,7 +97,7 @@ There is still a real question as to why there aren't more types, and indeed why
 We have made the equations more symmetric and in one sense simpler, by presenting the equations using complex numbers.  By doing so we have separated a constraint on electromagnetic particles out from the equations about how electromagnetism behaves.#]
 #]
 
-!!Markdown
+~~~Markdown
 
  *The intention in this nutshell is to explain the maths behind Maxwell's equations, of which there is a lot.  There are multiple places we can do better than standard explanations, similar to how the betterexplained website does things.  After that we move on to explaining why there are no magnetic monopoles.*
 

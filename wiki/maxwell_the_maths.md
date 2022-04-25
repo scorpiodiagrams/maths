@@ -1,4 +1,4 @@
-!!Markdown
+~~~Markdown
 #Mathematical Machinery
 
 There is a lot of mathematical machinery to Maxwell's Equations.
@@ -16,7 +16,7 @@ These are a way to work with coordinates in 3 dimensions.
 
 Trig gives us the important functions, *sine* and *cosine*, which as well as helping us calculate the lengths of sides in triangles are also important in waves.
 
-!!Scorpio
+~~~Scorpio
 ##Geometry
 *:A: (A)
 *:B: (B)
@@ -31,7 +31,7 @@ bond: B C
 bond: C A
 bond: C D
 boxed: 160
-!!Markdown
+~~~Markdown
 
 #Right([Trigonometry](#trigonometry))
 

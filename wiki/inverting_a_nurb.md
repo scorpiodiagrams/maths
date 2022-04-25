@@ -1,35 +1,56 @@
 !!MathsStart
-!!Markdown
+~~~Markdown
 #Inverting a NURB
 
 ###A Square Root
 A computer can readily do addition, multiplication and division.  How can we use it to calculate a square root, for example the square root of 3?
 
-> **Newton Raphson** is an efficient process for calculating the inverse of a function.  It is popular for finding square roots - which is the same thing as solving $$y=x^2$$ for a chosen $$y$$.
+> **Newton Raphson** is an efficient process for calculating the inverse of a function.  It is popular for finding square roots - which is the same thing as finding an $$x$$ that solves $$y=x^2$$ for a chosen $$y$$.  We're going from a $$y$$ value to an $$x$$ value, rather than the easier $$x$$ to $$y$$.
 
-The Newton Raphson technique relies on the observation that over small regions many functons are close to being a straight line.  If you zoom in on the function $$y=x^2$$ the curvature becomes less and less visible.  In turn this suggests a way to find an $$x$$ such that $$x^2=3$$ by linear approximations.
+The Newton Raphson technique relies on the observation that over small regions many functons are close to being a straight line.  If you zoom in on the function $$y=x^2$$ the curvature becomes less and less visible.  In turn this suggests a way to find an $$x$$ such that $$x^2=3$$ by linear approximations.  We use the steps below to calculate $$\sqrt{3}$$ :
 
-* We start with some ballpark guess at $$x$$.  
-* Update x to a better guess, 'pretending' it's a straight line at that point.
-* Repeat until we are 'close enough'.
+* We start with some #NUTC(ballpark guess) at $$x$$.  
+* Update x to a #NUTC(better guess), 'pretending' the curve is a straight line at that point.
+* #NUTC(Repeat) until we are 'close enough'.
 
-Here's how we use this to calculate $$\sqrt{3}$$.
-
+Click on the steps above to expand them.
+#[
 ####Ballpark Guess
 We know $$x=1$$ is too small and $$x=2$$ is too big, so we could start with a ballpark guess for $$\sqrt{3}$$ of $$x=1.5$$.  
-
-$$1.5^2$$ is $$2.25$$, so $$x=1.5$$ is also too low.  We could do a process of 'binary halving' and try $$x=1.75$$ next, and gradually narrow down the region for $$x$$.  However the linear approximation method is better.  It will get us more digits of $$x$$ faster.
+#]
+#[
+####A Better Guess
+$$1.5^2$$ is $$2.25$$, so $$x=1.5$$ is also too low for $$\sqrt{3}$$.  We could do a process of 'binary halving' and try $$x=1.75$$ next, and gradually narrow down the region for $$x$$.  However the linear approximation method is better.  It will get us more digits of $$x$$ faster.
 
 ####Linear approximation
-The derivative of $$x^2$$ is $$2x$$.  Plugging in $$x=1.5$$ we have that the slope of $$y=x^2$$ at $$x=1.5$$ is $$3$$.  If the curve $$y=x^2$$ were actually a straight line at $$x=1.5$$, we could move along that straight line to the exact answer. We'd move $$+0.75$$ in $$y$$ value, and read off the exact $$x$$ value of $$\sqrt{3}$$.  
+The derivative of $$x^2$$ is $$2x$$.  Plugging in $$x=1.5$$ we have that the slope of $$y=x^2$$ at $$x=1.5$$ is $$3$$.  
 
-The curve $$y=x^2$$ isn't a straight line, so we won't get the exact answer, but the curve comes closer and closer to being a straight line the more you zoom in.  The technique makes excellent improvements in the guess.
+If the curve $$y=x^2$$ were actually a straight line at $$x=1.5$$, we could move along that straight line to the exact answer. We'd move $$+0.75$$ in $$y$$ value, make an corresponding linear adjustment in $$x$$ and read off the exact $$x$$ value of $$\sqrt{3}$$.  
 
-To move $$+0.75$$ in $$y$$ when $$\frac{dy}{dx}=3$$ we'd need to add $$\frac{+0.75}{3}$$ to our $$x$$ of $$1.5$$, so we'd get $$1.75$$ for our new $$x$$. That happens to be the same guess as the binary halving idea would have reached.  The gains from Newton Raphson become apparent as you get closer to the answer.  $$x=1.75$$ is already a good update.
+> The curve $$y=x^2$$ isn't a straight line, so we won't get the exact answer, but the curve comes closer and closer to being a straight line the more you zoom in.  The technique makes excellent improvements in the guess.
 
+So what will the $$x$$ be when we increase $$y$$ by $$+0.75$$?   At our starting $$x$$ and $$y$$ $$\frac{dy}{dx}=3$$.  We'd need to add $$\frac{+0.75}{3}$$ to our $$x$$ of $$1.5$$, so we'd get $$1.75$$ for our new $$x$$. 
+
+That step of improvment happens to give the same improved guess as the binary halving idea does.  The gains from Newton Raphson become more apparent as you get closer to the answer.  
+
+$$x=1.75$$ is our updated value after this first step.
+#]
+#[
 ####Repeat the linear approximation step
-How good is the updated value of $$x=1.75$$?  $$1.75^2$$ is $$3.0625$$.  That's better than $$x=1.5$$ giving $$2.25$$ was.  And we can repeat the steps.  The slope at $$x=1.75$$ is $$3.5$$.  We'd need to subtract $$\frac{0.0625}{3.5}$$ from $$1.75$$ giving $$x=1.7321$$.  How good is this value for $$x$$?  $$1.7321^2$$ is $$3.0003$$.  Newton Raphson converges very quickly if the initial guess is reasonably close.
+How good is the updated value of $$x=1.75$$?  
 
+$$1.75^2$$ is $$3.0625$$.  
+
+That's better than $$x=1.5$$ which gave $$2.25$$.
+
+We repeat the steps, starting from the updated values.  The slope at $$x=1.75$$ is $$3.5$$.  We need to subtract $$\frac{0.0625}{3.5}$$ from $$1.75$$ giving $$x=1.7321$$.  
+
+How good is this value for $$x$$ of $$1.7321$$?  
+
+$$1.7321^2$$ is $$3.0003$$.  
+
+Newton Raphson converges very quickly if the initial guess is reasonably close.
+#]
 ####What's behind this?
 Linear functions are easy to invert compared to polynomials like $$x^2$$.  In particular for a linear function $$y=mx+c$$, we can quickly get the inverse function $$x=\frac{y-c}{m}$$.  
 
@@ -49,7 +70,7 @@ One of the simplest NURB formulas is a bilinear transformation.
 
 Suppose we have two-dimensional coordinates in the texture, which we will call $$s$$ and $$t$$.  With a bilinear transformation the colour from the texture at position $$s,t$$ may end up on screen at the position $$V_x,V_y$$ where:
  $$\qquad V = A(1-s)(1-t) + Bs(1-t)t + C(1-s)t + Dst$$
-!!Markdown
+~~~Markdown
 
 You can see that the function maps the unit square in coordinates $$s$$ and $$t$$ to a quadrilateral with corners A,B,C and D.  For example put $$s=0$$ and $$t=0$$, and you get the point A.
 
@@ -69,16 +90,16 @@ The slope in the Newton Raphson becomes a multidimensional gradient.  In the mat
     \vdots                             & \ddots & \vdots\\
     \dfrac{\partial f_m}{\partial x_1} & \cdots & \dfrac{\partial f_m}{\partial x_n}
 \end{bmatrix}
-!!Markdown
+~~~Markdown
 For epsilon small, we have
 !!Katex
 f(x+\epsilon) = f(x) + f'(x) \epsilon + o( \epsilon ^2 )
-!!Markdown
+~~~Markdown
 We can read this as an equation in a single scalar variable $$x$$, and $$f(x)$$, $$\epsilon$$ and $$f'(x)$$ all being scalar.  
 We can also read this as a vector equation where $$x$$, $$f(x)$$ and $$\epsilon$$ are all vectors.  The Jacobian <em>is</em> the multidimensional derivative. 
 !!Katex
 f(x+\epsilon) = f(x) + \mathbf J \epsilon + o( \epsilon ^2 )
-!!Markdown
+~~~Markdown
 
 If you're wondering why the individual derivatives in the definition of $$\mathbf J$$ are written $$\frac{\partial\, this}{\partial\, that}$$ rather than $$\frac{\mathrm{d}\, this}{\mathrm{d}\, that}$$, it is to indicate they are 'partial derivatives'.  It's a notation to remind us that the full derivative has more components to it.
 
@@ -89,23 +110,23 @@ We are looking for the inverse function $$f^{-1}$$, so that given a particular p
 The calculation and reasoning is very similar to that in the case of calculating $$\sqrt{3}$$.  In that calculation we were using the equation below, where $$f(x)=x^2$$ and where $$2x$$ takes the place of $$\mathbf J$$ :
 !!Katex
 3 = (x+\epsilon)^2 = x^2 + 2x \epsilon + o( \epsilon ^2 )
-!!Markdown
+~~~Markdown
 In that calculation of $$\sqrt{3}$$ we got an estimate for $$\epsilon$$ by ignoring the $$o(\epsilon^2)$$as follows:
 !!Katex
 \epsilon = \frac{(x+\epsilon)^2 -x^2}{2x}
 !!Katex
 \epsilon = \frac{3-1.75^2}{2\times 1.75}
-!!Markdown
+~~~Markdown
 We then updated $$x$$ by adding our estimate of $$\epsilon$$ and repeated.
 ----
 With the multivariate case we have:
 !!Katex
 \mathbf J \epsilon = f(x+\epsilon) - f(x)
-!!Markdown
+~~~Markdown
 To 'divide' by the Jacobian, we multiply by the matrix inverse.
 !!Katex
 \epsilon = \mathbf J^{-1}\left( f(x+\epsilon) - f(x) \right)
-!!Markdown
+~~~Markdown
 We then update $$x$$ (a vector now) by adding our estimate of $$\epsilon$$ (also a vector) and repeat.
 
 < Using the matrix inverse of $$\mathbf J$$ is exactly analogous to using the reciprocal of the gradient.
