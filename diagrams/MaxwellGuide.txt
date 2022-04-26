@@ -1,4 +1,4 @@
-!!Scorpio
+~~~Scorpio
 ##MindMap
 :A: (🧲Maxwell's\nEquations⚡)
 *:B: Ampere's\nLaw

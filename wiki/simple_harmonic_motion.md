@@ -1,5 +1,5 @@
 !!MathsStart
-!!Markdown
+~~~Markdown
 #Simple Harmonic Motion
 
 

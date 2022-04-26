@@ -1,5 +1,5 @@
 !!MathsStart
-!!Markdown
+~~~Markdown
 #Mystery of FFT
 
 ##Magic
