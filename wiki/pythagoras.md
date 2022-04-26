@@ -1,5 +1,3 @@
-~~~Markdown
-
 # Pythagoras
 
  *standard square on the hypotenuse diagram here*
@@ -33,7 +31,7 @@ card:
 ##Dividing a triangle
 "Something about dropping a perpendicular"
 
-~~~Markdown
+~~~
 
 
 If angle $$\angle ACB$$ of the original triangle is a right angle, then something wonderful happens when you divide the triangle into two.  
@@ -83,7 +81,7 @@ card:
 ##Dividing a triangle
 "Something about dropping a perpendicular"
 
-~~~Markdown
+~~~
 
 The length AB = 1.  
 

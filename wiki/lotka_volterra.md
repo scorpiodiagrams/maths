@@ -1,3 +1,2 @@
-~~~Markdown
 ## lotka_volterra
 

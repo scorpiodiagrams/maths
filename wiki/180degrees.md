@@ -1,4 +1,3 @@
-~~~Markdown
 ## 180 degrees
 
 > **180<sup>o</sup>** - The angles of any triangle add up to $$180^\circ$$. <br><br>The symbol **<sup>o</sup>** after the 180 is read as *degrees*.

@@ -1,5 +1,3 @@
-!!MathsStart
-~~~Markdown
 #Differentiation
 
 #NUT(Differentiation)
@@ -7,4 +5,3 @@
 #[Something something...#]
 
 
-!!MathsEnd

@@ -1,5 +1,3 @@
-!!MathsStart
-~~~Markdown
 #Complex Numbers
 
 Complex number arise when you allow "the square root of minus one", also known as 'i', to be treated as a valid number.  If you extend numbers by allowing 'i' then for consistency with existing behaviour of addition and multiplication, you must allow for example 3&times;i or 4&plus;i or 4&plus;3&times;i.  The extended numbers, for consistency, must multiply and add in a particular way, and it turns out that the extended number system:
@@ -14,4 +12,3 @@ Complex number arise when you allow "the square root of minus one", also known a
 
 
 
-!!MathsEnd

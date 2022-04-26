@@ -1,3 +1,2 @@
-~~~Markdown
 ## trig_pot
 

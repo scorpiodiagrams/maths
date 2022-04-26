@@ -1,4 +1,3 @@
-~~~Markdown
 #Mathematical Machinery
 
 There is a lot of mathematical machinery to Maxwell's Equations.
@@ -31,7 +30,7 @@ bond: B C
 bond: C A
 bond: C D
 boxed: 160
-~~~Markdown
+~~~
 
 #Right([Trigonometry](#trigonometry))
 

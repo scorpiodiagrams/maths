@@ -1,4 +1,3 @@
-~~~Markdown
 # Index
 
  * April 2022 * This is sketchy content that shows the general direction this content is going in.  It's way too raw at the moment.
@@ -23,7 +22,7 @@
 
 ### The Orbit Explorations
 These pages are relating oscillations to 'a potential'.  Some quantity is conserved.  That quantity determines how big the oscillation is.  This is very similar to the 'conserved quantity' Breshenham algorithm for drawing a circle from the previous group of pages.
-* #Button(trig_pot,Sinusoidal) - A circle is the bases for sinusoidal oscillations
+* #Button(trig_pot,Sinusoidal) - A circle is the basis for sinusoidal oscillations
 * #Button(lotka_volterra,Populations) - The Lotka-Volterra equations give oscillations of populations.
 * #Button(vis_viva,Vis Viva) - The Vis-Viva equations are important to orbits in a gravitational field.
 

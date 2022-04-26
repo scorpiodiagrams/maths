@@ -1,4 +1,3 @@
-~~~Markdown
 #Trigonometry
 
 
@@ -31,7 +30,7 @@ bond: E A
 card:
 ## Five pointed star
 We can work out the lengths and angles in a five pointed star from triangles that make it up.
-~~~Markdown
+~~~
 
 Because we can divide shapes made with straight lines up into triangles they are a good foundation for work in geometry.  They are better in many ways than rectangles.  Any rectangle can be sliced into two triangles along its diagonal.  If we can do the geometry of triangles we also can do the geometry of rectangles
 
@@ -91,7 +90,7 @@ angle: C D B
 card:
 ##Dividing a triangle
 "Something about dropping a perpendicular"
-~~~Markdown
+~~~
 
 The two right angles are shown with the squarish pieces.
 
@@ -178,6 +177,7 @@ Including
 * Pi
 #]
 
-!!Katex
+~~~Katex
 \sin^2{(x)} + \cos^2{(x)} = 1
-~~~Markdown
+~~~
+&nbsp;
