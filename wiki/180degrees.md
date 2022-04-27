@@ -8,13 +8,13 @@ Firstly there's the question of how big a degree is.  By convention there are 36
 
 > Long ago, 360 was probably chosen as the number of degrees because it is divisible exactly by a wide range of numbers.  2,3,5,6,10,15,20,30 all divide 360.  
 
-There's another way of measuring angles called *gradians* which has 100 gradians in a full rotation.  In gradians a triangle's angles always add up to 50.
+< There's another way of measuring angles called *gradians* which has 400 gradians in a full rotation.  In gradians a triangle's angles always add up to 200.
 
-The challenge is why?  Why when you sum the angles of a triangle do you always get the same result?  Why does it not matter what kind of triangle you choose?  Its angles will always add up to 50 gradians (if measured in gradians) or 180 degrees (if measured in degrees)?
+The challenge is why?  Why when you sum the angles of a triangle do you always get the same result?  Why does it not matter what kind of triangle you choose?  Its angles will always add up to 200 gradians (if measured in gradians) or 180 degrees (if measured in degrees)?
 
 ## The Tessellation Argument
 ### An almost good enough argument
-Here's a diagram that shows a tessellation of triangles.  It's the same triangle 🔺abc many times over.  Where three lines cross, the three angles of the triangle are each found twice.  The tessellation shows that twice the sum of the angles is 360 degrees, so the sum of the angles of a triangle is 180.
+Here's a diagram that shows a tessellation of triangles.  It's the same triangle $$\triangle abc$$ many times over.  Where three lines cross, the three angles of the triangle are each found twice.  The tessellation shows that twice the sum of the angles is 360 degrees, so the sum of the angles of a triangle is 180.
 ~~~Scorpio
 ##Geometry
 caption: Tessellation
@@ -97,7 +97,7 @@ But how do we know that the triangles actually do fit together like this, that t
 We'd have an argument that because the angles add up to 180 they must add up to 180.  We wouldn't have proved anything.
 
 ## Using Symmetry
-### An argument that can be made to work
+### Argument by adding one triangle at a time
 
 ~~~Scorpio
 ##Geometry
@@ -123,7 +123,7 @@ Here we've taken the original triangle and added a single copy.
 
 The top and bottom edge look to be parallel.  We now use a symmetry argument to show that they are parallel.
 
-> If the top and bottom edges were not parallel, we could extend them and they would meet, either on the right or on the left.<br><br>But if the lines meet on one side, they must meet on both, because of the symmetry of the figure.  Lines can't meet in two places (unless they are the same line), so no matter how far we we extend both lines they don't meet, in other words the top and bottom edges are parallel.
+> If the top and bottom edges were not parallel, we could extend them and they would meet, either on the right or on the left.<br><br>But if the lines meet on one side, they must meet on both, because of the symmetry of the figure.<br><br>Lines can't meet in two places (unless they are the same line), so no matter how far we we extend both lines they don't meet.  In other words the top and bottom edges are parallel.
 
 How do we know that two straight lines cross each other at most once?  How come we can assume that?  Come to that, how do we know that 'parallel lines' are a thing, that it is possible for some pairs of lines to 'go on forever without crossing'?
 
@@ -158,14 +158,14 @@ bond: A E
 bond: E C
 ~~~Markdown
 
-We use the exact same symmetry argument to show that the bottom edge of this third triangle is parallel to the top edge of the second triangle we added.  This is enough to show that the bottom edge is as straight as it appears to be, and hence that the three angles add up to 180<sup>o</sup>.
+We use the exact same symmetry argument to show that the bottom edge of this third triangle is parallel to the top edge of the second triangle we added.  This is enough to show that the bottom edge is as straight as it appears to be, and hence that the three angles that come together at b add up to 180<sup>o</sup>.
 
 We've used symmetry to show that the tessellation does fit together, or rather that enough of it fits together for our purposes.
 
-## Using Half Size
-### An argument that works
+## Using Bisection Argument
+### Argument by subdividing one triangle
 
-Another way to show the angles add up to 180<sup>o</sup> is to take the original triangle 🔺abc, shown here slightly bigger, and bisect each edge, and join those points together.
+Another way to show the angles add up to 180<sup>o</sup> is to take the original triangle $$\triangle abc$$, shown here slightly bigger, and bisect each edge, and join those points together.
 
 ~~~Scorpio
 ##Geometry
@@ -194,7 +194,7 @@ bond: E F
 bond: D F
 ~~~Markdown
 
-We then use similarity of triangles to argue that each of the new edges of the inner triangle is half the length of one of the sides of the original triangle.
+We then use similarity of triangles to argue that each of the new edges of the inner triangle is half the length of a corresponding side of the original triangle.
 
 That establishes that the inner triangle is similar to the outer triangle, with sides exactly half the length.  That doesn't affect the angles, so we have shown we have four triangles that are similar to the original triangle, and that they fit in the arrangement shown.
 
@@ -208,6 +208,10 @@ The reason is that sometimes very plausible diagrams of how things fit together 
 
 ## Another reason for care
 
-Another reason for being careful is that the angles of a triangle don't always add up to 180<sup>o</sup>, e.g if the triangle is drawn on a sphere.  Small triangles very nearly have angles adding to 180<sup>o</sup>, but the larger triangles don't.  In one large [spherical triangle](https://en.wikipedia.org/wiki/Spherical_trigonometry) all three angles are 90<sup>o</sup>.
+Another reason for being careful is that the angles of a triangle don't always add up to 180<sup>o</sup>, e.g if the triangle is drawn on a sphere.  Small triangles on a sphere very nearly have angles adding to 180<sup>o</sup>, but the larger triangles don't.  In one large [spherical triangle](https://en.wikipedia.org/wiki/Spherical_trigonometry) all three angles are 90<sup>o</sup>.
 
-This shows that arguments about geometry depend on what you allow in the geometry.  Spherical geometry allows for two straight lines to intersect more than once.  Spherical geometry allows enlarging and shrinking of triangles to not preserve the angles.  Our arguments that the angles add up to 180<sup>o</sup> always must depend on some reasonable property of geometry that is not true in spherical geometry.
+Some aspect of similarity of triangles breaks down on a sphere.  As you enlarge a triangle the angles change.
+
+This shows that arguments about geometry depend on what you allow in the geometry.  Spherical geometry allows for two straight lines to intersect more than once.  Spherical geometry allows enlarging and shrinking of triangles to not preserve the angles.  
+
+Our arguments that the angles add up to 180<sup>o</sup> had to depend on some reasonable property of geometry that is not true in spherical geometry.  In the argumnet by symmetry we relied on lines crossing once.  In the argument by bisection we relied on similarity of triangles when enlarging or shrinking a triangle.
