@@ -47,7 +47,7 @@ Yes, it all works.
 
 ## Relating the lengths
 
-Now we can use the fact that the three triangles are just scaled versions of each other to get a formula about the longest side.
+Now we can use facts about similar triangles.  The three triangles are just scaled versions of each other.  This will get us to a formula involving the length of the longest side.
 
 ### Relating the lengths of sides
 
@@ -86,12 +86,16 @@ card:
 The length AB = 1.  
 
 #### to calculate AD
-AB is the hypotenuse of the big triangle.  AC is the hypotenuse of a similar and smaller triangle.  AD/AC = AC/AB by using the scaling of these similar triangles.  Substituting 1 for AB and b for AC we get AD/b = b/1.  So <b>AD = b<sup>2</sup></b>
+AB is the hypotenuse of the big triangle.  
+AC is the hypotenuse of a similar and smaller triangle.  
+AD/AC = AC/AB by using the scaling of these similar triangles.  Substituting 1 for AB and b for AC we get AD/b = b/1.  So <b>AD = b<sup>2</sup></b>
 
 The same kind of calculation will work to calculate the length DB.
 
 #### to calculate DB
-The length AB = 1.  AB is the hypotenuse of the big triangle.  CB is the hypotenuse of a similar and smaller triangle.  DB/CB = CB/AB by using the scaling of these similar triangles.  Substituting 1 for AB and a for CB we get DB/a = a/1.  So <b>DB = a<sup>2</sup></b>
+The length AB = 1.  AB is the hypotenuse of the big triangle.  
+CB is the hypotenuse of a similar and smaller triangle.  
+DB/CB = CB/AB by using the scaling of these similar triangles.  Substituting 1 for AB and a for CB we get DB/a = a/1.  So <b>DB = a<sup>2</sup></b>
 
 As AD + DB = AB = 1, we've proved that in any right-angle triangle <b>b<sup>2</sup> + a<sup>2</sup> = 1</b>.
 
@@ -100,7 +104,7 @@ No, wait!  We've proved Pythagoras is true if the hypotenuse has length 1, not t
 ### Boostng the result
 We can boost this result to work on any right-angle triangle, for example one with a length of hypotenuse of c.  If the sides are length a, b and hypotenuse c, we scale that triangle to a similar triangle with sides a/c, b/c and 1.  From that triangle and our result that works for hypotenuse of 1, we know that (a/c)<sup>2</sup> + (b/c)<sup>2</sup> = 1.  Or in other words a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>, which is the full Pythagoras result for any sized right-angle triangle.
 
-In a sense proving for triangles with a hypotenuse of 1 is as powerful as proving for any hypotenuse, as we easily recover the full result by scaling.
+Proving for triangles with a hypotenuse of 1 is as powerful as proving for any hypotenuse.  We easily recover the full result by scaling.
 
 
 ## Other Proofs

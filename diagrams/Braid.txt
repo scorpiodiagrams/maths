@@ -1,0 +1,15 @@
+!!Scorpio
+##MindMap
+caption: Warped Braid
+:A: A
+:B: B
+:C: C
+:D: D
+:A: at: 87,182
+:B: at: 243,316
+:C: at: 560,162
+:D: at: 452,22
+quad: A B C D
+image: braid.png
+hmul: 5.3
+vmul: 3

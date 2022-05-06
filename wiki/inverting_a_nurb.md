@@ -1,6 +1,16 @@
 # Inverting a NURB
 
-A polynomial in $$x$$ is a function such as $$x^2$$.  For any value of $$x$$ we can easily calculate $$x^2$$.  This page looks at going in the other direction.
+Here is a warped image, a texture that has been curved using a NURB.  You can drag the points A,B,C and D to change the warping.
+
+~~~Scorpio
+# Braid
+~~~
+
+The 'NURB' image can be made starting from the texture, and for each point of the texture working out where on the screen it should end up.  It can also be made 'in the other direction'.  For each pixel on the screen, work out which point in the texture it comes from.
+
+# Forward and Backwards
+
+A polynomial in $$x$$ is a function such as $$x^2$$.  For any value of $$x$$ we can easily calculate $$x^2$$.  This page looks at going in the other direction.  We start with that problem, the square root problem.  How do we go from an $$x^2$$ value to an $$x$$ value?
 
 # The square root problem
 A computer can readily do addition, multiplication and division.  How can we use it to calculate a square root, for example the square root of 3?
