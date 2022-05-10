@@ -4,7 +4,7 @@
 
 > Angles of a triangle add to 180<sup>o</sup>.  You can prove this prettily, provided you make other assumptions, such as that triangles stay the same shape when you shrink or enlarge them.
 
-> We study right-angle triangles because all triangles can be split into two right-angle triangles.  They are great building blocks for more general triangles, which in turn are building blocks of all shapes with many sides.
+> We study right-angle triangles because all triangles can be split into two right-angle triangles.  They are great building blocks for more general triangles, which in turn are building blocks of all polygons.
 
 > The Pythagoras theorem relates the lengths of the sides of a right-angle triangle.  It's not obvious why it is true.  It does follow though from the subdivision of a triangle into two right-angled triangles.  There are also pretty geometric illustrations of why it is true.
 

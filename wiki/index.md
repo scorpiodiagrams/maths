@@ -51,6 +51,7 @@ These pages are relating oscillations to 'a potential'.  Some quantity is conser
 #### something...
 * #Button(inverting_a_nurb, Inverting a NURB ) - 
 * #Button(mystery_of_FFT, Mystery of FFT ) - 
+* #Button(animated, Animations ) - Exploring animated equations
 
 Ideas for #NUTC(future content)
 #[
