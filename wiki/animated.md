@@ -2,10 +2,10 @@
 ## Equanim
 
 ~~~Scorpio
-# DistributeTask
-# DistributeStack
-# DistributeShift
+# DistributeStack2
+# DistributeShift2
 # DistributeMultiply
+# DistributeAdd
 # DistributeAdd
 ~~~
 
