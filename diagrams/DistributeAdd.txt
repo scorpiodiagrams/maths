@@ -36,4 +36,4 @@ caption: Example
 :P: at: 285,230
 :Q: at: 130,211
 :R: at: 330,211
-bond: Q R
+link: Q R

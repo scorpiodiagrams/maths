@@ -13,7 +13,7 @@
 **:K: Sin\nCos\nTan
 *:L: Complex\nNumbers
 *:M: The Speed\nof Light
-bond: * *
+link: * *
 bend: -15
 caption: Maxwell's Equations
 :info:

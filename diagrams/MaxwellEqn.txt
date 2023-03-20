@@ -31,7 +31,7 @@ options: nodrag
 :M: at: 573,41
 :N: at: 400,62
 background: maxwell.png
-bond: K L ~~""~~>
+link: K L ~~""~~>
 bend: 30
 :A:B:
 card:

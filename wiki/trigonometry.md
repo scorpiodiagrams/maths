@@ -21,11 +21,11 @@ boxed: 250
 :C: at: 320,220
 :D: at: 160,110
 :E: at: 360,110
-bond: A B
-bond: B C
-bond: C D
-bond: D E
-bond: E A
+link: A B
+link: B C
+link: C D
+link: D E
+link: E A
 :info:
 card:
 ## Five pointed star
@@ -80,10 +80,10 @@ boxed: 200
 :B: at: 260,34
 :C: at: 466,140
 :D: at: 260,140
-bond: A B
-bond: B C
-bond: C A
-bond: B D
+link: A B
+link: B C
+link: C A
+link: B D
 angle: B D A
 angle: C D B
 :info:

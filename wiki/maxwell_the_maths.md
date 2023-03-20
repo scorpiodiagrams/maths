@@ -25,10 +25,10 @@ Trig gives us the important functions, *sine* and *cosine*, which as well as hel
 :B: at: 464,142
 :C: at: 254,34
 :D: at: 258,139
-bond: A B
-bond: B C
-bond: C A
-bond: C D
+link: A B
+link: B C
+link: C A
+link: C D
 boxed: 160
 ~~~
 

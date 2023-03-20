@@ -19,10 +19,10 @@ boxed: 200
 :B: at: 180,16
 :C: at: 466,140
 :D: at: 182,138
-bond: A B
-bond: B C
-bond: C A
-bond: B D
+link: A B
+link: B C
+link: C A
+link: B D
 angle: B D A
 angle: C D B
 angle: A B C
@@ -69,10 +69,10 @@ boxed: 200
 :B: at: 180,16
 :C: at: 466,140
 :D: at: 182,138
-bond: A B --["  b  "]--
-bond: B C --["  a  "]--
-bond: C A 
-bond: B D
+link: A B --["  b  "]--
+link: B C --["  a  "]--
+link: C A 
+link: B D
 angle: B D A
 angle: C D B
 angle: A B C

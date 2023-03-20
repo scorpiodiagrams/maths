@@ -67,22 +67,22 @@ boxed: 250
 :V: at: 170,240
 :W: at: 270,240
 :X: at: 370,240
-bond: A P
-bond: B U
-bond: C V
-bond: D W
-bond: E X
-bond: A E
-bond: F J
-bond: K O
-bond: P T
-bond: U X
-bond: A X
-bond: B T
-bond: C O
-bond: D J
-bond: F W
-bond: K V
+link: A P
+link: B U
+link: C V
+link: D W
+link: E X
+link: A E
+link: F J
+link: K O
+link: P T
+link: U X
+link: A X
+link: B T
+link: C O
+link: D J
+link: F W
+link: K V
 :A:B:C:D:E:F:G:H:I:J:K:L:N:O:P:Q:T:U:V:W:X:
 hide:
 
@@ -112,11 +112,11 @@ hide:
 :B: at: 270,40
 :C: at: 220,90
 :D: at: 320,90
-bond: A B
-bond: A C
-bond: B C
-bond: B D
-bond: C D
+link: A B
+link: A C
+link: B C
+link: B D
+link: C D
 ~~~Markdown
 
 Here we've taken the original triangle and added a single copy.
@@ -149,13 +149,13 @@ hide:
 :D: at: 320,90
 :E: at: 120,90
 hide:
-bond: A B
-bond: A C
-bond: B C
-bond: B D
-bond: C D
-bond: A E
-bond: E C
+link: A B
+link: A C
+link: B C
+link: B D
+link: C D
+link: A E
+link: E C
 ~~~Markdown
 
 We use the exact same symmetry argument to show that the bottom edge of this third triangle is parallel to the top edge of the second triangle we added.  This is enough to show that the bottom edge is as straight as it appears to be, and hence that the three angles that come together at b add up to 180<sup>o</sup>.
@@ -186,12 +186,12 @@ hide:
 :D: at: 190,130
 :E: at: 290,130
 :F: at: 240,180
-bond: A B
-bond: A C
-bond: B C
-bond: D E
-bond: E F
-bond: D F
+link: A B
+link: A C
+link: B C
+link: D E
+link: E F
+link: D F
 ~~~Markdown
 
 We then use similarity of triangles to argue that each of the new edges of the inner triangle is half the length of a corresponding side of the original triangle.
