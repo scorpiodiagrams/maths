@@ -16,15 +16,19 @@ Why the angles in a triangle sum to 180<sup>o</sup>)
 Length of hypotenuse from the other two sides)
 #Jump( vectors \Diamond Vectors
 # \Diamond Vectors
+Collections of numbers that can be used to represent positions.
 )
 #Jump( complex_numbers \Diamond Complex Numbers
 # \Diamond Complex Numbers
+Numbers that can represent the square root of negative numbers.
 )
 #Jump( differentiation \Diamond Differentiation
 # \Diamond Differentiation
+Finbding the slope of a curve.
 )
 #Jump( simultaneous_equations \Diamond Simultaneous Equations
 # \Diamond Simultaneous Equations
+Several equations with several variables of unknown value. Sometimes you can work out what the unknowns are by combining the equations.
 )
 #Jump( notation \Diamond Notation
 # \Diamond Notation
@@ -52,18 +56,23 @@ The Vis-Viva equations are important to orbits in a gravitational field.)
 Simple Harmonic Motion)
 #Jump( differential_operators \Diamond Differential Operators
 # \Diamond Differential Operators
+Differentiation generalised to multiple dimensions. When you do this, there are several kinds of differentiation.
 )
 #Jump( maxwells_equations \Diamond Maxwell's Equations
 # \Diamond Maxwell's Equations
+Fundamental equations that relate electricity, magnetism and light.
 )
 #Jump( maxwell_the_maths \Diamond Maxwell the maths
 # \Diamond Maxwell the maths
+An overview of the mathematics behind Maxwell's Equations.
 )
 #Jump( inverting_a_nurb \Diamond Inverting a NURB
 # \Diamond Inverting a NURB
+A NURB is a way to make a smooth surface. To be useful we need both a forward function and an inverse function.
 )
 #Jump( mystery_of_FFT \Diamond Mystery of FFT
 # \Diamond Mystery of FFT
+What is the FFT? What is the 'magic' that makes it fast?
 )
 #Jump( animated \Diamond Animations 
 # \Diamond Animations 
@@ -78,7 +87,7 @@ Opens the Scorpio Sampler repo, these samples may be the same as in the sampler 
 Opens the Sampler repo)
 #Jump( maths;index \Diamond Maxwell
 # \Diamond Maths
-Opens the Maxwell repo)
+Opens the Maxwell repo (this repo#))
 #Jump( ui_annotated;index \Diamond User Interfaces
 # \Diamond User Interfaces
 Opens the User Interfaces repo)
